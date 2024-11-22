@@ -11,8 +11,8 @@
                 "-Wpedantic",
                 "-Wconversion",
                 "-fexceptions",
-                "main.cpp",  // Spécifiez tous les fichiers source
-                "module.cpp",
+                "exo0PriseEnMain/v1/main.cpp",  // Chemin relatif correct
+                "exo0PriseEnMain/v1/module.cpp",
                 "-o",
                 "${workspaceFolder}/main.exe"  // Fichier de sortie
             ],
